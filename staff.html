@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Infosys Centre For Artificial Intelligence, IIITD</title>
+    <title>Infosys CAI IIITD | Students</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -25,28 +25,9 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <style>
-        .mySlides {
-            display: none
-        }
-
-        .w3-left,
-        .w3-right,
-        .w3-badge {
-            cursor: pointer
-        }
-
-        .w3-badge {
-            height: 13px;
-            width: 13px;
-            padding: 0
-        }
-    </style>
 </head>
 
 <body>
-
     <!-- ? Preloader Start -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
@@ -113,6 +94,8 @@
                                                     <ul class="submenu">
                                                         <li><a href="faculty.html">Faculty</a></li>
                                                         <li><a href="students.html">Students</a></li>
+
+                                                        <li><a href="staff.html">Staff</a></li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="event.html">Events</a></li>
@@ -134,208 +117,59 @@
     </header>
     <!-- header end -->
     <main>
-
-        <div class="w3-center w3-content w3-display-container" style="max-width:100%; margin: auto;">
-            <img class="mySlides" src="assets/img/hero/franck-v-jIBMSMs4_kA-1.jpg" style="max-height:300px; max-width:100%; margin: auto;">
-            <img class="mySlides" src="assets/img/hero/hitesh-choudhary-t1PaIbMTJIM-1.jpg" style="max-height:300px; max-width:100%;  margin: auto;">
-            <img class="mySlides" src="assets/img/hero/maxime-valcarce-mAj8xn5zXsk-1.jpg" style="max-height:300px; max-width:100%;  margin: auto;">
-            <img class="mySlides" src="assets/img/hero/michael-dziedzic-deHhHOttSdk-1.jpg" style="max-height:300px; max-width:100%;  margin: auto;">
-            <img class="mySlides" src="assets/img/hero/swarathbanner.jpg" style="max-height:300px; max-width:100%;  margin: auto;">
-
-            <div class="w3-content" style="max-width:100%; margin: auto;">
-                <div class="mySlides w3-container w3-grey">
-                    <h1><b>Did You Know?</b></h1>
-                    <h1><i>We plan to sell trips to the moon in the 2020s</i></h1>
-                    <p></p>
+        <!--? Hero Start -->
+        <div class="slider-area2">
+            <div class="slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap hero-cap2 pt-20 text-center">
+                                <h2>our staff </h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="w3-center w3-container w3-section w3-large w3-text-indigo w3-display-bottommiddle"
-                style="width:100%;  align-content: center;">
-                <button class="w3-button w3-indigo w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="w3-button w3-indigo w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-                <!-- <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div> -->
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
-
-
             </div>
         </div>
+        <!-- Hero End -->
 
-        <script>
-            var slideIndex = 0;
-            showDivs(slideIndex);
-
-            function plusDivs(n) {
-                showDivs(slideIndex += n);
-            }
-
-            function currentDiv(n) {
-                showDivs(slideIndex = n);
-            }
-
-
-            // var slideIndex = 0;
-            carousel();
-
-            function carousel() {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                slideIndex++;
-                if (slideIndex > x.length) { slideIndex = 1 }
-                x[slideIndex - 1].style.display = "block";
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" w3-indigo", "");
-                }
-                dots[slideIndex - 1].className += " w3-indigo";
-                setTimeout(carousel, 2000);
-            }
-            function showDivs(n) {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("demo");
-                if (n > x.length) { slideIndex = 1 }
-                if (n < 1) { slideIndex = x.length }
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" w3-white", "");
-                }
-                x[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " w3-white";
-                // setTimeout(plusDivs, 2000);
-            }
-        </script>
-        <!-- slider Area Start-->
-
-        <!-- slider Area End -->
-
-        <!--? About Law Start-->
-        <section class="about-low-area section-padding2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-10">
-                        <div class="about-caption mb-50">
-                            <!-- Section Tittle -->
-                            <div class="section-tittle mb-35">
-                                <span>About</span>
-                                <h2>Infosys Centre for Artificial Intelligence, IIITD</h2>
-                                <span>supported by Infosys Foundation, does cutting edge research in Artificial
-                                    Intelligence and related areas.</span>
-                            </div>
-                            <p> </p>
-                            <p>In the past decades AI – computing, perception, learning and understanding have become
-                                commonplace in our lives: We plan trips using GPS systems that use AI; Our smartphones
-                                understand our language – Siri, Cortana and Google Now; AI can detect faces and
-                                categorize them. AI can translate languages in real time and can speed up laptops by
-                                guessing what we are going to do next. While these advances have become ubiquitous, the
-                                growth of the effectiveness and ubiquity of AI methods has also stimulated thinking
-                                about the potential risks associated with advances of AI. As such an academic centre
-                                that works for the betterment of the people and develops algorithms for them is needed.
-                                This centre fulfills such a need.
-
-                            </p>
-                            <p>The Centre for AI aims to be the premier centre in India for development of AI. This
-                                includes both the fundamental algorithms in AI to further basic research and also the
-                                application of AI for solving societal problems specifically in the Indian Context.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <!-- about-img -->
-                        <div class="about-img ">
-                            <div class="about-back-img ">
-                                <img src="assets/img/gallery/swarath3.jpg" alt="">
-                            </div>
-                            <div class="about-font-img d-none d-lg-block">
-                                <img src="assets/img/gallery/swarath1.jpg" alt="">
-                            </div>
-                            <!-- <div class="about-back-img d-none d-lg-none">
-                            <img src="assets/img/gallery/swarath2.jpg" alt="">
-                        </div> -->
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About Law End-->
-        <!--? Services Area Start -->
-
-        <section class="site-section">
-            <div class="container">
-                <div class="section-tittle mb-35">
-                    <span>Problems We Work on</span>
-                    <!-- <h2>About CAI</h2> -->
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="p-3 box-with-humber">
-                            <div class="number-behind">>></div>
-                            <h2 class="text-primary"> Development of cost-effective Autonomous Vehicles to solve the
-                                last mile problem in India
-                            </h2>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
-                        <div class="p-3 box-with-humber">
-                            <div class="number-behind">>></div>
-                            <h2 class="text-primary">Unmanned Aerial Vehicles for Agriculture and Environmental and
-                                Wildlife Monitoring</h2>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
-                        <div class="p-3 box-with-humber">
-                            <div class="number-behind">>></div>
-                            <h2 class="text-primary">Augmented Reality and Virtual Reality based Avatars</h2>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+        <!--? Team Area Start -->
+        <div class="team-area pt-160 pb-160">
             <div class="container">
 
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="p-3 box-with-humber">
-                            <div class="number-behind">>></div>
-                            <h2 class="text-primary"> Natural Language Processing</h2>
+                <section class="service-area">
+                    <div class="container">
+
+                        <div style="padding-bottom: 15px;">
+                            <a href="index.html" style="color: mediumseagreen;">Home</a> / People / <b>Staff</b>
                         </div>
-                    </div>
 
-                    <div class="col-md-6 col-lg-4">
-                        <div class="p-3 box-with-humber">
-                            <div class="number-behind">>></div>
-                            <h2 class="text-primary">Machine Learning and Deep Learning with applications to image
-                                recognition, Biometrics</h2>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-team mb-30">
+                                    <!-- <div class="team-img"> -->
+                                        <!-- <img src="assets/img/gallery/saket.jpg" alt="Saket Anand"> -->
+                                        <!-- Blog Social -->
+                                        <!-- <ul class="team-social"> -->
+                                            <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li> -->
+                                            <!-- <li><a href="http://faculty.iiitd.ac.in/~anands/"><i
+                                                        class="fas fa-globe"></i></a>
+                                            </li> -->
+                                        <!-- </ul> -->
+                                    <!-- </div> -->
+                                    <div class="team-caption">
+                                        <h3>Shaheen Siddiqui</h3>
+                                        <!-- <p>Geometric Computer Vision, Semi-supervised learning, Robust methods, Scene -->
+                                            <!-- understanding</p> -->
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
-                    </div>
+                </section>
 
-                    <div class="col-md-6 col-lg-4">
-                        <div class="p-3 box-with-humber">
-                            <div class="number-behind">>></div>
-                            <h2 class="text-primary">Fault identification and detection in cyber-physical systems</h2>
-
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-            </div>
-
+                <!-- Team Ara End -->
     </main>
     <footer>
         <div class="footer-wrapper section-bg2" data-background="assets/img/gallery/footer_bg.png">
