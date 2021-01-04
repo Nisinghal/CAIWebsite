@@ -59,6 +59,23 @@
 .theme-bg {
   background: #09cc7f;
 }
+th
+{
+  border: 2px solid turquoise;
+    padding: 10px 5px;
+}
+table.pubs{
+  table-layout: auto;
+  width: 100%;  
+  border:2px solid grey;
+  /* stroke-opacity: 100%; */
+  
+}
+td
+{
+  border: 2px solid grey;
+    padding:5px 5px;
+}
 
 /* line 72, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_color.scss */
 .brand-bg {
